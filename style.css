@@ -1,0 +1,79 @@
+.container{
+    padding-top: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.grid{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr 1fr 1fr 1fr;
+    grid-template-areas: 
+    "dis dis dis dis"
+    "AC C divide multiply"
+    "seven eight nine subtract"
+    "four five six add"
+    "one two three equals"
+    "zero zero decimal equals";
+}
+
+.padButton{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px 40px;
+    background-color: purple;
+    color: black;
+    border: 1px solid black;
+    cursor: pointer;
+    font-size: 20px;
+    
+}
+.padButton:hover{
+    border: 1px solid white;
+    color: red;
+}
+
+.dark-gray{
+    background-color: rgba(0, 0, 0, 0.607);
+}
+
+.tomato{
+    background-color: darkorange;
+}
+
+.blue{
+    background-color: blueviolet;
+}
+
+.dis{
+    grid-area: dis;
+    background-color: black;
+    text-align: right;
+    font-size: 20px;
+}
+.dis{
+    width: 91%;
+    color: white;
+    padding: 5px 20px;
+    text-align: right;
+    background-color: black;
+}
+
+input::placeholder{
+    color: white;
+}
+.total{
+    padding: 5px 20px;
+    color: yellow;
+}
+
+.zero{
+    grid-area: zero;
+
+}
+
+.equals{
+    grid-area: equals;
+}
