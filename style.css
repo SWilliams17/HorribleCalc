@@ -68,12 +68,9 @@ input::placeholder{
     padding: 5px 20px;
     color: yellow;
 }
-
 .zero{
     grid-area: zero;
-
 }
-
 .equals{
     grid-area: equals;
 }
